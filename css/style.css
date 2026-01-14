@@ -1,0 +1,13 @@
+@charset "UFT-8";
+
+
+.caixa {
+    border: 2px solid red;
+    width: 300px;
+    padding: 8px;
+    margin: 10px;
+    background-color: rgb(117, 170, 117);
+    margin: auto;
+    
+}
+

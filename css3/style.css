@@ -1,0 +1,11 @@
+@charset "UTF-8"
+
+
+.caixa {
+        border: 2px solid red;
+        width: 300PX;
+        padding: 5px;
+        
+        display: inline-block;
+        background-color: rgba(104, 189, 104, 0.521);
+}
