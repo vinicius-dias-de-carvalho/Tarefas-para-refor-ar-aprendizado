@@ -1,11 +1,15 @@
-@charset "UTF-8"
 
 
+body {
+        text-align: center;
+}
 .caixa {
         border: 2px solid red;
         width: 300PX;
         padding: 5px;
-        
+        text-align: left;
         display: inline-block;
+        
         background-color: rgba(104, 189, 104, 0.521);
+        
 }
