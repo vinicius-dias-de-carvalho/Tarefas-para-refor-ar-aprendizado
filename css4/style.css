@@ -1,63 +1,74 @@
 @charset "UTF-8";
 
+html,body{
+  height: 100%;
+}
 body {
-     background-image: linear-gradient(to right, rgb(109, 177, 109), rgb(117, 117, 77));
-    font-style: italic;
-    text-align: left;
+     background-color: rgb(122, 122, 81) ;
+     font-family: Arial, Helvetica, sans-serif;
+     
+     display: flex;
+     flex-direction: column;
+
+    
 }
 
 header {
-    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.205) ,rgba(0, 0, 255, 0.575));
+    background-color: yellowgreen;
     text-align: center;
-    padding: 20px;
-    box-shadow: 1px 2px 2px black ;
-   border-radius: 7px;
-    
-    
+    padding: 13px;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 7px;
     
 }
- header > h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
-}
-nav {
 
-    text-align: left;
-}
- nav > a {
+nav {
+ text-align: left;
     
-  padding: 13px;
 }
+
+    nav > a {
+        padding: 13px;
+        text-decoration: none;
+        color: black;
+         }
+ 
    
+  nav > a:hover {
+    color: red;
+    transition: 0.3s;
+
    
+  } 
    
 
 
 
 main {
-    background-color: rgba(255, 228, 196, 0.575);
-    width: 800px;
+    background-color: antiquewhite;
     margin: auto;
-    padding: 10px 20px 10px;
-    box-shadow: 10px;
+    width: 800px;
+    padding: 10px 12px;
     border-radius: 5px;
+    box-shadow: 2px 2px 6px black;
+    flex: 1;
 
     
 }
 
-div{
-    padding: 13px;
-   font-size: 20px;
-}
-
-
-
-footer {
-    background-color: rgb(90, 209, 193);
-    color: black;
-    width: 800px;
-    padding: 13px;
+.caixa{
     font-size: 20px;
-    margin: auto;
-} 
+    padding: 13px;
+  
+ }
+
+
+footer{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 13px;
+    border-radius: 5px;
+    
+   
+     }
